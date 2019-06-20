@@ -1,0 +1,49 @@
+@font-face {
+    font-family: BradleyHandITC;
+    src: url(../font/bradley-hand/Bradley_Hand_ITC_TT.ttf);
+  }
+
+.reveal h1, 
+.reveal h2,
+.reveal {
+    font-weight: 700;
+    font-family: BradleyHandITC;
+    background-color: #ffff99;
+    border-top: 2px #ffc000 solid;
+    border-bottom: 2px #ffc000 solid;
+}
+
+.reveal h1 {
+    font-size: 2em;
+}
+.reveal h2 {
+    font-size: 1.5em;
+}
+.reveal h3 {
+    font-size: 1.3em;
+}
+
+img.mandarijn {
+    width: 500px;
+}
+
+.reveal {
+    background-color: #ffff99;
+}
+
+.reveal ul li {
+    list-style-type: none;
+}
+
+.reveal [flex] {
+    display: flex;
+    align-items: center
+}
+
+.reveal [col] {
+    flex: 1;    
+}
+
+.big {
+    font-size: 8em;
+}
